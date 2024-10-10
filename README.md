@@ -48,7 +48,7 @@ API проекта будет доступно по адресам:
 Запуск СЕРВЕРА : `npm start`
 
 Ps : Первая console cd Recipes - python manage.py runserver / Вторая console cd frontend - npm start
-                                  !!! НАСЛАЖДАЕМСЯ ПРОЕКСТОМ !!!
+                                  !!! НАСЛАЖДАЕМСЯ ПРОЕКТОМ !!!
 
 
 
