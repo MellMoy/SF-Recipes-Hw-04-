@@ -24,4 +24,31 @@ Backend:
 ## Установка и запуск среды разработки backend Django
 
 В виртуальное окружение venv клонируем репозиторий: 
+https://github.com/MellMoy/SF-Recipes-Hw-04-.git
+
+Затем инсталлируем необходимые для работы проекта пакеты:
+pip install -r requirements.txt
+
+В консоли переходим в директорию проекта и стартуем проект:  
+python manage.py runserver
+
+API проекта будет доступно по адресам: 
+    path('api/', include('api.urls')) 
+    path('api/openapi', include('api.urls'))
+    path('api/swagger-ui/', include('api.urls')) 
+    path('api/recipe/', include('api.urls'))
+    path('api/recipe/<id>/', include ('api.urls'))
+    path('api/category/', include('api.urls')) 
+
+
+## Установка и запуск среды разработки frontend React + Webpack
+
+Перезодим : cd frontend
+Восстановить модули: `npm install`   
+Запуск СЕРВЕРА : `npm start`
+
+Ps : Первая console cd Recipes - python manage.py runserver / Вторая console cd frontend - npm start
+                                  !!! НАСЛАЖДАЕМСЯ ПРОЕКСТОМ !!!
+
+
 
